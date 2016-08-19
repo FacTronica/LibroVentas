@@ -18,12 +18,21 @@ https://github.com/FacTronica/LibroVentas/blob/master/FormatoLibroVenta.php
 
 <h3>Proceso 2: Enviar Archivo Plano</h3>
 El archivo de texto plano con el formato para el libro de ventas, se debe enviar al servidor de facturación.
-Para realizar este proceso se hace uso de librería opensource CURL.
-Ejemplo:<br>
+<br>Para realizar este proceso se hace uso de librería opensource CURL.
+<br><b>Ejemplos:</b><br>
+
+<br><b>ENVIAR ARCHIVO PLANO DESDE CONSOLA WINDOWS:</b><BR>
+<br>c:\curl\curl.exe --form "archivito=@c:\curl\archivo_plano.txt" http://www.factronica.cl/sdk/index.php
+
+<br><b>ENVIAR ARCHIVO PLANO DESDE CONSOLA LINUX:</b><BR>
+<br>curl --form "archivito=@archivo_plano.txt" http://www.factronica.cl/sdk/index.php
 
 
-<b>WINDOWS:</b><BR>
-c:\curl\curl.exe --form "archivito=@c:\curl\archivo_plano.txt" http://www.factronica.cl/factronica_webservice_servidor_beta/index.php
+<h3>Proceso 3: Recuperar Resultados:</h3>
+Consiste en obtener los archivos con resultados.
+<br>1.-Archivo xml con Libro de Ventas.
+<br>2.-Archivo xml con TrackID de Recepción de Libro por parte del SII.
 
-
+<br>Si el Envío al SII es automático, se recomienda siempre proceda a recuperar el xml de TrackId y analizarlo.
+Solamente si el TrackId es mayor a cero se procede a descargar el Xml con libro e ventas.
  
