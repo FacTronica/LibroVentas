@@ -11,11 +11,19 @@ Para realizar la integración del libro de ventas con su software propio se debe
 
 <h3>Proceso 1: Generar Archivo Plano</h3>
 Consiste en generar un archivo de texto plano con el formato requerido.
+En el formato se deben entregar los datos del encabezado de los documentos de venta, los totalizadores por tipo de documento y los datos del certificado para firmar el libro electrónico.
 
 Url con Formato Libro Ventas:<br>
 https://github.com/FacTronica/LibroVentas/blob/master/FormatoLibroVenta.php
 
+<h3>Proceso 2: Enviar Archivo Plano</h3>
+El archivo de texto plano con el formato para el libro de ventas, se debe enviar al servidor de facturación.
+Para realizar este proceso se hace uso de librería opensource CURL.
+Ejemplo:<br>
 
+
+<b>WINDOWS:</b><BR>
+c:\curl\curl.exe --form @archivito=@c:\curl\archivo_plano.txt http://www.factronica.cl/factronica_webservice_servidor_beta/index.php
 
 
 
