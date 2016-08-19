@@ -19,8 +19,6 @@ https://github.com/FacTronica/LibroVentas/blob/master/FormatoLibroVenta.php
 <h3>Proceso 2: Enviar Archivo Plano</h3>
 El archivo de texto plano con el formato para el libro de ventas, se debe enviar al servidor de facturación.
 <br>Para realizar este proceso se hace uso de librería opensource CURL.
-<br><b>Ejemplos:</b>
-
 <br>Enviar archivo desde Consola Windows:
 <br>c:\curl\curl.exe --form "archivito=@c:\curl\archivo_plano.txt" http://www.factronica.cl/sdk/index.php
 <br>Enviar archivo desde Consola Linux:
