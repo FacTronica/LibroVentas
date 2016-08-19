@@ -1,5 +1,5 @@
 <?php
-#
+# 
 $Config["EnviarSii"]="1";
 $Config["EnviarMail"]="1";
 $Config["MailDestino"]="contacto@factronica.cl";
