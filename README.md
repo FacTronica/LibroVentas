@@ -26,8 +26,10 @@ El archivo de texto plano con el formato para el libro de ventas, se debe enviar
 
 <h3>Proceso 3: Recuperar Resultados:</h3>
 Consiste en obtener los archivos con resultados.
+
 <br>1.-Archivo xml con Libro de Ventas.
 <br>2.-Archivo xml con TrackID de Recepción de Libro por parte del SII.
+
 <br>Si el Envío al SII es automático, se recomienda siempre proceda a recuperar el xml de TrackId y analizarlo.
 Solamente si el TrackId es mayor a cero se procede a descargar el Xml con libro e ventas.
  
