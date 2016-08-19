@@ -23,8 +23,7 @@ Ejemplo:<br>
 
 
 <b>WINDOWS:</b><BR>
-c:\curl\curl.exe --form @archivito=@c:\curl\archivo_plano.txt http://www.factronica.cl/factronica_webservice_servidor_beta/index.php
+c:\curl\curl.exe --form "archivito=@c:\curl\archivo_plano.txt" http://www.factronica.cl/factronica_webservice_servidor_beta/index.php
 
 
-
-c&#58;\curl\curl&#46;exe --form &quot;archivito=@c&#58;\curl\archivo_plano&#46;txt&quot; http&#58;//www&#46;factronica&#46;cl/factronica_webservice_servidor_beta/index&#46;php
+ 
