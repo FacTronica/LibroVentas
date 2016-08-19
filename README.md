@@ -35,3 +35,4 @@ Consiste en obtener los archivos con resultados.
 <br>Si el Envío al SII es automático, se recomienda siempre proceda a recuperar el xml de TrackId y analizarlo.
 Solamente si el TrackId es mayor a cero se procede a descargar el Xml con libro e ventas.
  
+c:\curl\curl.exe -o c:\curl\ESTADOENVIODTE_133477322_TRACKID_1453694548.xml http://www.factronica.cl/factronica_webservice_servidor/buzon_consultadte/salida/ESTADOENVI53694548.xml
