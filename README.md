@@ -21,7 +21,7 @@ El archivo de texto plano con el formato para el libro de ventas, se debe enviar
 <br>Para realizar este proceso se hace uso de librería opensource CURL.
 
 <br>Enviar archivo desde Consola Windows:
-<br>c:\curl\curl.exe --form "datos_libroventa=@c:\curl\archivo_plano.txt" http://www.factronica.cl/sdk/index.php
+<br>c:\curl\curl.exe --form "datos_libroventa=@c:\curl\archivo_plano.txt" http://www.factronica.cl/factronica_webservice_servidor_beta/index.php
 
 Enviar archivo desde Consola Linux:
 <br>curl --form "datos_libroventa=@cargar_libro.txt" http://www.factronica.cl/factronica_webservice_servidor_beta/recibe_libroventa.php
@@ -35,4 +35,4 @@ Consiste en obtener los archivos con resultados.
 <br>Si el Envío al SII es automático, se recomienda siempre proceda a recuperar el xml de TrackId y analizarlo.
 Solamente si el TrackId es mayor a cero se procede a descargar el Xml con libro e ventas.
  
-c:\curl\curl.exe -o c:\curl\ESTADOENVIODTE_133477322_TRACKID_1453694548.xml http://www.factronica.cl/factronica_webservice_servidor/buzon_consultadte/salida/ESTADOENVI53694548.xml
+c:\curl\curl.exe -o c:\curl\ESTADOENVIODTE_133477322_TRACKID_1453694548.xml http://www.factronica.cl/factronica_webservice_servidor_beta/buzon_consultadte/salida/ESTADOENVI53694548.xml
