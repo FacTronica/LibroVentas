@@ -21,10 +21,10 @@ El archivo de texto plano con el formato para el libro de ventas, se debe enviar
 <br>Para realizar este proceso se hace uso de librería opensource CURL.
 
 <br>Enviar archivo desde Consola Windows:
-<br>c:\curl\curl.exe --form "archivito=@c:\curl\archivo_plano.txt" http://www.factronica.cl/sdk/index.php
+<br>c:\curl\curl.exe --form "datos_libroventa=@c:\curl\archivo_plano.txt" http://www.factronica.cl/sdk/index.php
 
 Enviar archivo desde Consola Linux:
-<br>curl --form "archivito=@archivo_plano.txt" http://www.factronica.cl/sdk/index.php
+<br>curl --form "datos_libroventa=@archivo_plano.txt" http://www.factronica.cl/sdk/index.php
 
 <h3>Proceso 3: Recuperar Resultados:</h3>
 Consiste en obtener los archivos con resultados.
