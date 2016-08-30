@@ -58,7 +58,7 @@ $Detalle["MntTotal"]["1"]="20000";
 ####### DETALLE ITEM (2) #######
 $Detalle["TpoDoc"]["2"]="61";
 $Detalle["NroDoc"]["2"]="1";
-$Detalle["Anulado"]["1"]="A"; # A=indica que el documento se encuentra Anulado 
+$Detalle["Anulado"]["2"]="A"; # A=indica que el documento se encuentra Anulado 
 $Detalle["TpoImp"]["2"]="1";
 $Detalle["TasaImp"]["2"]="19";
 $Detalle["FchDoc"]["2"]="2016-05-29";
