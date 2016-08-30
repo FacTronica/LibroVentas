@@ -40,6 +40,7 @@ $Caratula["FolioNotificacion"]="";
 ####### DETALLE ITEM (1) #######
 $Detalle["TpoDoc"]["1"]="33";
 $Detalle["NroDoc"]["1"]="30";
+$Detalle["Anulado"]["1"]=""; # A=indica que el documento se encuentra Anulado 
 $Detalle["TpoImp"]["1"]="1";
 $Detalle["TasaImp"]["1"]="19";
 $Detalle["FchDoc"]["1"]="2016-05-28";
@@ -57,6 +58,7 @@ $Detalle["MntTotal"]["1"]="20000";
 ####### DETALLE ITEM (2) #######
 $Detalle["TpoDoc"]["2"]="61";
 $Detalle["NroDoc"]["2"]="1";
+$Detalle["Anulado"]["1"]="A"; # A=indica que el documento se encuentra Anulado 
 $Detalle["TpoImp"]["2"]="1";
 $Detalle["TasaImp"]["2"]="19";
 $Detalle["FchDoc"]["2"]="2016-05-29";
@@ -91,6 +93,7 @@ $Detalle["MntTotal"]["3"]="10000";
 ####### TOTALIZADOR TIPO 33 - FACTURA ELECTRONICA #######
 $TotalesPeriodo["TpoDoc"]["33"]="33";
 $TotalesPeriodo["TotDoc"]["33"]="1";
+$TotalesPeriodo["TotAnulado"]["33"]="1"; // total de folios anulados
 $TotalesPeriodo["TpoImp"]["33"]="1";
 $TotalesPeriodo["TotMntExe"]["33"]="0";
 $TotalesPeriodo["TotMntNeto"]["33"]="16807";
@@ -101,6 +104,7 @@ $TotalesPeriodo["TotMntTotal"]["33"]="20000";
 ####### TOTALIZADOR TIPO 61 - NOTA DE CREDITO #######
 $TotalesPeriodo["TpoDoc"]["61"]="61";
 $TotalesPeriodo["TotDoc"]["61"]="4";
+$TotalesPeriodo["TotAnulado"]["61"]=""; // total de folios anulados
 $TotalesPeriodo["TpoImp"]["61"]="1";
 $TotalesPeriodo["TotMntExe"]["61"]="0";
 $TotalesPeriodo["TotMntNeto"]["61"]="42016";
