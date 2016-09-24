@@ -36,3 +36,8 @@ Consiste en obtener los archivos con resultados.
 Solamente si el TrackId es mayor a cero se procede a descargar el Xml con libro e ventas.
  
 c:\curl\curl.exe -o c:\curl\ESTADOENVIODTE_133477322_TRACKID_1453694548.xml http://www.factronica.cl/factronica_webservice_servidor_beta/buzon_consultadte/salida/ESTADOENVI53694548.xml
+
+
+Documentación del SII:
+Manual de Contrucción del Xml Libro de Ventas
+http://www.sii.cl/factura_electronica/factura_mercado/formato_iecv.pdf
