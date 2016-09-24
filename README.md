@@ -40,4 +40,4 @@ c:\curl\curl.exe -o c:\curl\ESTADOENVIODTE_133477322_TRACKID_1453694548.xml http
 
 Documentación del SII:
 Manual de Contrucción del Xml Libro de Ventas
-http://www.sii.cl/factura_electronica/factura_mercado/formato_iecv.pdf
+<br>http://www.sii.cl/factura_electronica/factura_mercado/formato_iecv.pdf
