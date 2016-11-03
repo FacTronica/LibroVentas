@@ -49,11 +49,20 @@ $Detalle["RUTDoc"]["1"]="11111111-1";
 $Detalle["RznSoc"]["1"]="CLIENTE 1 LTDA";
 $Detalle["TpoDocRef"]["1"]="";
 $Detalle["FolioDocRef"]["1"]="";
-$Detalle["MntExe"]["1"]="0";
-$Detalle["MntNeto"]["1"]="16807";
-$Detalle["MntIVA"]["1"]="3193";
-$Detalle["MntSinCred"]["1"]="0";
+$Detalle["MntExe"]["1"]="";
+$Detalle["MntNeto"]["1"]="25629";
+$Detalle["MntIVA"]["1"]="4870";
+$Detalle["IVARetTotal"]["1"]=""; 
+$Detalle["CodIVANoRec"]["1"]="";
+$Detalle["MntIVANoRec"]["1"]="";
+$Detalle["IVAUsoComun"]["1"]="";
+$Detalle["MntSinCred"]["1"]="";
+$Detalle["CodImp"]["1"]["27"]="27"; // Otros Impuestos Codigo del Impuesto por ej. 27
+$Detalle["TasaImp"]["1"]["27"]="20.5"; // Otros Impuestos Tasa de impuesto 20.5
+$Detalle["MntImp"]["1"]["27"]="2000"; //  MOnto del impuestopor ej. 2000
 $Detalle["MntTotal"]["1"]="20000";
+
+
 
 ####### DETALLE ITEM (2) #######
 $Detalle["TpoDoc"]["2"]="61";
@@ -67,11 +76,18 @@ $Detalle["RUTDoc"]["2"]="11111111-1";
 $Detalle["RznSoc"]["2"]="CLIENTE 1 LTDA";
 $Detalle["TpoDocRef"]["2"]="";
 $Detalle["FolioDocRef"]["2"]="";
-$Detalle["MntExe"]["2"]="0";
-$Detalle["MntNeto"]["2"]="8403";
-$Detalle["MntIVA"]["2"]="1597";
-$Detalle["MntSinCred"]["2"]="0";
-$Detalle["MntTotal"]["2"]="10000";
+$Detalle["MntExe"]["2"]="";
+$Detalle["MntNeto"]["2"]="25629";
+$Detalle["MntIVA"]["2"]="4870";
+$Detalle["IVARetTotal"]["2"]=""; 
+$Detalle["CodIVANoRec"]["2"]="";
+$Detalle["MntIVANoRec"]["2"]="";
+$Detalle["IVAUsoComun"]["2"]="";
+$Detalle["MntSinCred"]["2"]="";
+$Detalle["CodImp"]["2"]["27"]="27"; // Otros Impuestos Codigo del Impuesto por ej. 27
+$Detalle["TasaImp"]["2"]["27"]="20.5"; // Otros Impuestos Tasa de impuesto 20.5
+$Detalle["MntImp"]["2"]["27"]="2000"; //  MOnto del impuestopor ej. 2000
+$Detalle["MntTotal"]["2"]="20000";
 
 ####### DETALLE ITEM (3) #######
 $Detalle["TpoDoc"]["3"]="61";
