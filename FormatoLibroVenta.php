@@ -39,7 +39,7 @@ $Caratula["FolioNotificacion"]="";
 
 ####### DETALLE ITEM (1) #######
 $Detalle["TpoDoc"]["1"]="33";
-$Detalle["NroDoc"]["1"]="30";
+$Detalle["NroDoc"]["1"]="78778";
 $Detalle["Anulado"]["1"]=""; # A=indica que el documento se encuentra Anulado 
 $Detalle["TpoImp"]["1"]="1";
 $Detalle["TasaImp"]["1"]="19";
@@ -50,8 +50,8 @@ $Detalle["RznSoc"]["1"]="CLIENTE 1 LTDA";
 $Detalle["TpoDocRef"]["1"]="";
 $Detalle["FolioDocRef"]["1"]="";
 $Detalle["MntExe"]["1"]="";
-$Detalle["MntNeto"]["1"]="25629";
-$Detalle["MntIVA"]["1"]="4870";
+$Detalle["MntNeto"]["1"]="20000";
+$Detalle["MntIVA"]["1"]="3800";
 $Detalle["IVARetTotal"]["1"]=""; 
 $Detalle["CodIVANoRec"]["1"]="";
 $Detalle["MntIVANoRec"]["1"]="";
@@ -59,15 +59,15 @@ $Detalle["IVAUsoComun"]["1"]="";
 $Detalle["MntSinCred"]["1"]="";
 $Detalle["CodImp"]["1"]["27"]="27"; // Otros Impuestos Codigo del Impuesto por ej. 27
 $Detalle["TasaImp"]["1"]["27"]="20.5"; // Otros Impuestos Tasa de impuesto 20.5
-$Detalle["MntImp"]["1"]["27"]="2000"; //  MOnto del impuestopor ej. 2000
-$Detalle["MntTotal"]["1"]="20000";
+$Detalle["MntImp"]["1"]["27"]="3402"; //  MOnto del impuestopor ej. 2000
+$Detalle["MntTotal"]["1"]="23800";
 
 
 
 ####### DETALLE ITEM (2) #######
-$Detalle["TpoDoc"]["2"]="61";
+$Detalle["TpoDoc"]["2"]="33";
 $Detalle["NroDoc"]["2"]="1";
-$Detalle["Anulado"]["2"]="A"; # A=indica que el documento se encuentra Anulado 
+$Detalle["Anulado"]["2"]=""; # A=indica que el documento se encuentra Anulado 
 $Detalle["TpoImp"]["2"]="1";
 $Detalle["TasaImp"]["2"]="19";
 $Detalle["FchDoc"]["2"]="2016-05-29";
@@ -77,34 +77,18 @@ $Detalle["RznSoc"]["2"]="CLIENTE 1 LTDA";
 $Detalle["TpoDocRef"]["2"]="";
 $Detalle["FolioDocRef"]["2"]="";
 $Detalle["MntExe"]["2"]="";
-$Detalle["MntNeto"]["2"]="25629";
-$Detalle["MntIVA"]["2"]="4870";
+$Detalle["MntNeto"]["2"]="10000";
+$Detalle["MntIVA"]["2"]="1900";
 $Detalle["IVARetTotal"]["2"]=""; 
 $Detalle["CodIVANoRec"]["2"]="";
 $Detalle["MntIVANoRec"]["2"]="";
 $Detalle["IVAUsoComun"]["2"]="";
 $Detalle["MntSinCred"]["2"]="";
-$Detalle["CodImp"]["2"]["27"]="27"; // Otros Impuestos Codigo del Impuesto por ej. 27
-$Detalle["TasaImp"]["2"]["27"]="20.5"; // Otros Impuestos Tasa de impuesto 20.5
-$Detalle["MntImp"]["2"]["27"]="2000"; //  MOnto del impuestopor ej. 2000
-$Detalle["MntTotal"]["2"]="20000";
+$Detalle["CodImp"]["2"]["27"]=""; // Otros Impuestos Codigo del Impuesto por ej. 27
+$Detalle["TasaImp"]["2"]["27"]=""; // Otros Impuestos Tasa de impuesto 20.5
+$Detalle["MntImp"]["2"]["27"]=""; //  MOnto del impuestopor ej. 2000
+$Detalle["MntTotal"]["2"]="11900";
 
-####### DETALLE ITEM (3) #######
-$Detalle["TpoDoc"]["3"]="61";
-$Detalle["NroDoc"]["3"]="2";
-$Detalle["TpoImp"]["3"]="1";
-$Detalle["TasaImp"]["3"]="19";
-$Detalle["FchDoc"]["3"]="2016-05-29";
-$Detalle["CdgSIISucur"]["3"]="123123";
-$Detalle["RUTDoc"]["3"]="22222222-2";
-$Detalle["RznSoc"]["3"]="CLIENTE 2 LTDA";
-$Detalle["TpoDocRef"]["3"]="";
-$Detalle["FolioDocRef"]["3"]="";
-$Detalle["MntExe"]["3"]="0";
-$Detalle["MntNeto"]["3"]="8403";
-$Detalle["MntIVA"]["3"]="1597";
-$Detalle["MntSinCred"]["3"]="0";
-$Detalle["MntTotal"]["3"]="10000";
 
 ####### TOTALIZADOR TIPO 33 - FACTURA ELECTRONICA #######
 $TotalesPeriodo["TpoDoc"]["33"]="33";
@@ -129,27 +113,14 @@ $TotalesPeriodo["TotIVAFueraPlazo"]["61"]="0";
 $TotalesPeriodo["TotMntTotal"]["61"]="50000";
 
 ####### CERTIFICADO DIGITAL #######
-$certificado["Modulus"]="kEyTxK2IMiygJJv9vfvPl2lZv8CSyzSk5u6b4/xwYGmdWZSfe5Z5mb7UhrBmwird
-0QeQG47Jt83VNZCzoVOLkKaSXkOTjxUMnNuqhDr2XhLaCUFE58/NAPIwK352MZlq
-s1PmslMIz1Q5GYV/Dfft3xfjdsTtbIgN+xOw4m2Fq/tv6OiZFKrolmHWnzogR05z
-0TYv7Iz+/sUqq93XLNNAFQ==";
+$certificado["Modulus"]="modulo del certificado";
 #
 #
 $certificado["Exponent"]="AQAB";
 #
 #
-$certificado["X509Certificate"]="MIIGSTCCBTGgAwIBAgIQHJhzSDW/en8OE25fb4Q7RTANBgkqhkiG9w0BAQUFADCB
-qDELMAkGA1UEBhMCQ0wxFDASBgNVBAoTC0UtU2lnbiBTLkEuMR8wHQYDVQQLExZT
-l7yLLjMAhwDnc+FCRgHqKjSkVci+qOVvjAQ/lL7OINa4pAY0WKOnsEsOpg9SczEh
-BGCZrMNv1biIe1Dt74HO/r9HU2fmudjl94OaReUrGuq/YU8knXZBK+vou+OU5IZ5
-5M2KN+vkEMIYw1dFbNoTtim7b8aoN+lu1lQdBmg=";
+$certificado["X509Certificate"]="certificado x509";
 #
 #
-$certificado["PrivKey"]="-----BEGIN RSA PRIVATE KEY-----
-MIIEpAIBAAKCAQEAkEyTxK2IMiygJJv9vfvPl2lZv8CSyzSk5u6b4/xwYGmdWZSf
-e5Z5mb7UhrBmwird6y3oWussZiv3YAg6TWofeB1yHXsgh1QdPiRjyHenCY3zDvbJ
-4r30QGkCgYAc2/9hJ/6mUru9A8baS0WmF4rGf8kxRsNRAYb4kXiZ26I2JtwqD38b
-7tzEW2BbZ0EhXE/KA76QAwHyZXKxBhBbzOKgyhWVm3mzmLWIvcY7EBY0hmPBdlIi
-peBseODvQjkbk6eVXJLsIxO7aQ3gUkAo1e5fULUEC/9UBHcyEmFTRA==
------END RSA PRIVATE KEY-----";
+$certificado["PrivKey"]="llave privada";
 ?>
