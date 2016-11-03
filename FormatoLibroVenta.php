@@ -96,21 +96,12 @@ $TotalesPeriodo["TotDoc"]["33"]="1";
 $TotalesPeriodo["TotAnulado"]["33"]="1"; // total de folios anulados
 $TotalesPeriodo["TpoImp"]["33"]="1";
 $TotalesPeriodo["TotMntExe"]["33"]="0";
-$TotalesPeriodo["TotMntNeto"]["33"]="16807";
-$TotalesPeriodo["TotMntIVA"]["33"]="3193";
+$TotalesPeriodo["TotMntNeto"]["33"]="30000";
+$TotalesPeriodo["TotMntIVA"]["33"]="5700";
 $TotalesPeriodo["TotIVAFueraPlazo"]["33"]="0";
-$TotalesPeriodo["TotMntTotal"]["33"]="20000";
+$TotalesPeriodo["TotMntTotal"]["33"]="35700";
  
-####### TOTALIZADOR TIPO 61 - NOTA DE CREDITO #######
-$TotalesPeriodo["TpoDoc"]["61"]="61";
-$TotalesPeriodo["TotDoc"]["61"]="4";
-$TotalesPeriodo["TotAnulado"]["61"]=""; // total de folios anulados
-$TotalesPeriodo["TpoImp"]["61"]="1";
-$TotalesPeriodo["TotMntExe"]["61"]="0";
-$TotalesPeriodo["TotMntNeto"]["61"]="42016";
-$TotalesPeriodo["TotMntIVA"]["61"]="7984";
-$TotalesPeriodo["TotIVAFueraPlazo"]["61"]="0";
-$TotalesPeriodo["TotMntTotal"]["61"]="50000";
+ 
 
 ####### CERTIFICADO DIGITAL #######
 $certificado["Modulus"]="modulo del certificado";
