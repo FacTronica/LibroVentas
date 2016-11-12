@@ -10,8 +10,9 @@ Para realizar la integración del libro de ventas con su software propio se debe
 3.-Recuperar Resultados del Envío.<br>
 
 <h3>Proceso 1: Generar Archivo Plano</h3>
-Consiste en generar un archivo de texto plano con el formato requerido.
-En el formato se deben entregar los datos del encabezado de los documentos de venta, los totalizadores por tipo de documento y los datos del certificado para firmar el libro electrónico.
+Consiste en generar un archivo de texto plano con el formato requerido. 
+<br>El archivo plano en este caso lo llamaremos envio_libro.txt
+<br>En el formato del archivo de texto plano, se deben entregar los datos del encabezado de los documentos de venta, los totalizadores por tipo de documento y los datos del certificado para firmar el libro electrónico.
 
 Url con Formato Libro Ventas:<br>
 https://github.com/FacTronica/LibroVentas/blob/master/FormatoLibroVenta.php
