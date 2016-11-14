@@ -1,0 +1,9 @@
+Preguntas Frecuentas del Libro de Ventas:
+
+1.-Se pueden generar envíos parciales de libro de venta ?
+<br>Si se puede enviar el libro de ventas en forma parcializada, esto generalmente se aplica cuando son grandes volumenes de información que supera el limite permitido por archivo el sii.
+
+2.-Que debo hacer para enviar Libro de ventas Parcializado ?
+<br>Resp.: En el archivo txt Se deben modificar los siguientes campos:
+$Caratula["TipoEnvio"]="PARCIAL"; // Para indicar que enviaremos libro parcializado.
+$Caratula["FolioNotificacion"]="1"; // Para indicar que es el envío 1, luego 2, etc...
