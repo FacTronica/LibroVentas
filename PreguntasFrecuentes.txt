@@ -8,3 +8,12 @@ cuando son grandes volumenes de información que supera el limite permitido por 
 Resp.: En el archivo txt Se deben modificar los siguientes campos:
 $Caratula["TipoEnvio"]="PARCIAL"; // Para indicar que enviaremos libro parcializado.
 $Caratula["FolioNotificacion"]="1"; // Para indicar que es el envío 1, luego 2, etc...
+
+3.-Como Enviar un Libro de Ventas para Corregir uno Anteriormente enviado al SII ?
+En el archivo Txt con los datos del libro de ventas, la caratula se debe construir de la siguiente forma.
+$Caratula["TipoOperacion"]="VENTA";
+$Caratula["TipoLibro"]="RECTIFICA"; // >>> RECTIFICA
+$Caratula["TipoEnvio"]="TOTAL"; 
+$Caratula["NroSegmento"]=""; 
+$Caratula["FolioNotificacion"]=""; 
+$Caratula["CodAutRec"]="XBHJK7G5G7"; // CODIGO DE AUTORIZACION RECTIFICACION
