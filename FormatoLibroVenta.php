@@ -15,13 +15,13 @@ $CONFACTRONICA["FOLDERFILES"]="track_ids_libroventas";
 # Nombre del Xml para almacenar el TrackID que entrega el SII al Recibir el XML Libro
 $CONFACTRONICA["TRACKID"]="sutrackid.xml";
 # Nombre del Xml con el Libro de Ventas
-$Archivos["XMLLIBRO"]="76311607-7_2016-05-29.xml";
+$Archivos["XMLLIBRO"]="libroventas_777777777_201611.xml";
 
 ####### CARATULA #######
 # Rut del Emisor (Contribuyente)
-$Caratula["RutEmisorLibro"]="76311607-7";
+$Caratula["RutEmisorLibro"]="77777777-7";
 # Rut de Persona que Envía (Propietario del Certificado que firma)
-$Caratula["RutEnvia"]="15132339-1";
+$Caratula["RutEnvia"]="11111111-1";
 # Periodo Contable del Libro de Ventas
 $Caratula["PeriodoTributario"]="2016-05";
 # Fecha de Resolución
