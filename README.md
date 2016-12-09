@@ -28,17 +28,13 @@ Enviar archivo desde Consola Linux:
 <br>curl --form "datos_libroventa=@envio_libro.txt" http://www.factronica.cl/factronica_webservice_servidor_beta/recibe_libroventa.php
 
 <h3>Proceso 3: Recuperar Resultados:</h3>
-Consiste en obtener los archivos con resultados.
+Consiste en obtener el archivo xml con el libro de ventas.
 
-<br>1.-Archivo xml con Libro de Ventas.
-<br>2.-Archivo xml con TrackID de Recepción de Libro por parte del SII.
-
-<br>Si el Envío al SII es automático, se recomienda siempre proceda a recuperar el xml de TrackId y analizarlo.
-Solamente si el TrackId es mayor a cero se procede a descargar el Xml con libro e ventas.
- 
-c:\curl\curl.exe -o c:\curl\ESTADOENVIODTE_133477322_TRACKID_1453694548.xml http://www.factronica.cl/factronica_webservice_servidor_beta/buzon_consultadte/salida/ESTADOENVI53694548.xml
+<br>Recuperar Xml desde Windows:
+<br>c:\curl\curl.exe -o c:\curl\libroventas_777777777_201611.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml_libroventa/libroventas_777777777_201611.xml
 
 
-Documentación del SII:
-Manual de Contrucción del Xml Libro de Ventas
+
+<br>Documentación Oficial del SII:
+Manual para Construcción del Xml Libro de Ventas
 <br>http://www.sii.cl/factura_electronica/factura_mercado/formato_iecv.pdf
