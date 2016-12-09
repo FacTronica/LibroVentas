@@ -33,7 +33,8 @@ Consiste en obtener el archivo xml con el libro de ventas.
 <br>Recuperar Xml desde Windows:
 <br>c:\curl\curl.exe -o c:\curl\libroventas_777777777_201611.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml_libroventa/libroventas_777777777_201611.xml
 
-
+<br>Recuperar Xml desde Linux:
+<br>curl -o libroventas_777777777_201611.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml_libroventa/libroventas_777777777_201611.xml
 
 <br>Documentación Oficial del SII:
 Manual para Construcción del Xml Libro de Ventas
