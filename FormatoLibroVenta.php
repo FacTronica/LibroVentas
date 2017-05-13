@@ -106,14 +106,14 @@ $TotalesPeriodo["TotMntTotal"]["33"]="35700";
  
 
 ####### CERTIFICADO DIGITAL #######
-$certificado["Modulus"]="modulo del certificado";
+$FACTRONICA["Modulus"]="modulo del certificado";
 #
 #
-$certificado["Exponent"]="AQAB";
+$FACTRONICA["Exponent"]="AQAB";
 #
 #
-$certificado["X509Certificate"]="certificado x509";
+$FACTRONICA["X509Certificate"]="certificado x509";
 #
 #
-$certificado["PrivKey"]="llave privada";
+$FACTRONICA["PrivKey"]="llave privada";
 ?>
