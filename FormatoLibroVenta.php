@@ -11,9 +11,9 @@ $Config["MailDestino"]="contacto@factronica.cl";
 
 ####### DIRECTORIOS Y ARCHIVOS #######
 # Directorio Almacen Remoto para Almacenar Xml Libro de Ventas
-$CONFACTRONICA["FOLDERFILES"]="track_ids_libroventas";
+$FACTRONICA["FOLDERFILES"]="track_ids_libroventas";
 # Nombre del Xml para almacenar el TrackID que entrega el SII al Recibir el XML Libro
-$CONFACTRONICA["TRACKID"]="sutrackid.xml";
+$FACTRONICA["TRACKID"]="sutrackid.xml";
 # Nombre del Xml con el Libro de Ventas
 $Archivos["XMLLIBRO"]="libroventas_777777777_201611.xml";
 
@@ -37,10 +37,10 @@ $Caratula["TipoEnvio"]="TOTAL";
 #
 $Caratula["FolioNotificacion"]="";
 
-####### DETALLE ITEM (1) #######
+####### DOCUMENTO 1 ( CON IMPUESTO ADICIONAL ) #######
 $Detalle["TpoDoc"]["1"]="33";
 $Detalle["NroDoc"]["1"]="78778";
-$Detalle["Anulado"]["1"]=""; # A=indica que el documento se encuentra Anulado 
+$Detalle["Anulado"]["1"]=""; 
 $Detalle["TpoImp"]["1"]="1";
 $Detalle["TasaImp"]["1"]="19";
 $Detalle["FchDoc"]["1"]="2016-05-28";
@@ -57,14 +57,14 @@ $Detalle["CodIVANoRec"]["1"]="";
 $Detalle["MntIVANoRec"]["1"]="";
 $Detalle["IVAUsoComun"]["1"]="";
 $Detalle["MntSinCred"]["1"]="";
-$Detalle["CodImp"]["1"]["1"]="27"; // Otros Impuestos Codigo del Impuesto por ej. 27
-$Detalle["TasaImp"]["1"]["1"]="20.5"; // Otros Impuestos Tasa de impuesto 20.5
-$Detalle["MntImp"]["1"]["1"]="3402"; //  MOnto del impuestopor ej. 2000
-$Detalle["MntTotal"]["1"]="23800";
+$Detalle["CodImp"]["1"]["1"]="27"; 
+$Detalle["TasaImp"]["1"]["1"]="20.5";  
+$Detalle["MntImp"]["1"]["1"]="4100";  
+$Detalle["MntTotal"]["1"]="27900";
 
 
 
-####### DETALLE ITEM (2) #######
+####### DOCUMENTO 2 ( SIN IMPUESTO ADICIONAL) #######
 $Detalle["TpoDoc"]["2"]="33";
 $Detalle["NroDoc"]["2"]="1";
 $Detalle["Anulado"]["2"]=""; # A=indica que el documento se encuentra Anulado 
@@ -84,23 +84,23 @@ $Detalle["CodIVANoRec"]["2"]="";
 $Detalle["MntIVANoRec"]["2"]="";
 $Detalle["IVAUsoComun"]["2"]="";
 $Detalle["MntSinCred"]["2"]="";
-$Detalle["CodImp"]["2"]["27"]=""; // Otros Impuestos Codigo del Impuesto por ej. 27
-$Detalle["TasaImp"]["2"]["27"]=""; // Otros Impuestos Tasa de impuesto 20.5
-$Detalle["MntImp"]["2"]["27"]=""; //  MOnto del impuestopor ej. 2000
+$Detalle["CodImp"]["2"]["1"]="";  
+$Detalle["TasaImp"]["2"]["1"]="";  
+$Detalle["MntImp"]["2"]["1"]="";  
 $Detalle["MntTotal"]["2"]="11900";
 
 
 ####### TOTALIZADOR TIPO 33 - FACTURA ELECTRONICA #######
 $TotalesPeriodo["TpoDoc"]["33"]="33";
 $TotalesPeriodo["TotDoc"]["33"]="1";
-$TotalesPeriodo["TotAnulado"]["33"]="1"; // total de folios anulados
+$TotalesPeriodo["TotAnulado"]["33"]=""; 
 $TotalesPeriodo["TpoImp"]["33"]="1";
 $TotalesPeriodo["TotMntExe"]["33"]="0";
 $TotalesPeriodo["TotMntNeto"]["33"]="30000";
 $TotalesPeriodo["TotMntIVA"]["33"]="5700";
 $TotalesPeriodo["TotIVAFueraPlazo"]["33"]="0";
-$TotalesPeriodo["CodImp"]["33"]["27"]="27"; // codigo tipo de impuesto
-$TotalesPeriodo["TotMntImp"]["33"]["27"]="3402"; // monto total del impuesto
+$TotalesPeriodo["CodImp"]["33"]["1"]="27"; // codigo tipo de impuesto
+$TotalesPeriodo["TotMntImp"]["33"]["1"]="4100"; // monto total del impuesto
 $TotalesPeriodo["TotMntTotal"]["33"]="35700";
  
  
