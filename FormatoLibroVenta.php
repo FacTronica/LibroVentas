@@ -57,9 +57,9 @@ $Detalle["CodIVANoRec"]["1"]="";
 $Detalle["MntIVANoRec"]["1"]="";
 $Detalle["IVAUsoComun"]["1"]="";
 $Detalle["MntSinCred"]["1"]="";
-$Detalle["CodImp"]["1"]["27"]="27"; // Otros Impuestos Codigo del Impuesto por ej. 27
-$Detalle["TasaImp"]["1"]["27"]="20.5"; // Otros Impuestos Tasa de impuesto 20.5
-$Detalle["MntImp"]["1"]["27"]="3402"; //  MOnto del impuestopor ej. 2000
+$Detalle["CodImp"]["1"]["1"]="27"; // Otros Impuestos Codigo del Impuesto por ej. 27
+$Detalle["TasaImp"]["1"]["1"]="20.5"; // Otros Impuestos Tasa de impuesto 20.5
+$Detalle["MntImp"]["1"]["1"]="3402"; //  MOnto del impuestopor ej. 2000
 $Detalle["MntTotal"]["1"]="23800";
 
 
